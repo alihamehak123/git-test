@@ -1,1 +1,9 @@
 text 
+  Subject <- c("English", "Math", "Science", "Social Studies", "English", "Math", "Science", "Social Studies", "English", "Math", "Science", "Social Studies", "English", "Math", "Science", "Social Studies", "English", "Math", "Science", "Social Studies")
+          
+          Year <- c(2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2021, 2021, 2021, 2021, 2022, 2022, 2022, 2022, 2023, 2023, 2023, 2023)
+          
+          Scores <- c(85, 78, 89, 75, 68, 82, 86, 68, 75, 80, 85, 65, 90, 75, 95, 75, 85, 88, 98, 70)
+          
+          YOYScores <- data.frame(Subject, Year, Scores)
+     
